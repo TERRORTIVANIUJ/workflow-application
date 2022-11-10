@@ -77,7 +77,58 @@ include("include/footer.php");
 
 ?>
 
-	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+
+<div class="video">
+	<div class="col-md-4 col-md-offset-3">
+		<!-- LOGO goes here -->
+		<!-- <center><h2 style="margin-bottom:1px;"></h2></center> -->
+		<!-- LOGO goes here -->
+		<div class="well" style="position:relative;bottom:-100vh;">
+			 <div class="form-heading" style="background: transparent;">
+			    <!-- <h3 class="text-center" style="font-weight: bold; font-size: 40px; color: #000;">Workflow Management System </h4>
+				<hr style="border: 4px solid #black;"> -->
+			  <p>Watch a Mini Video Demonstration of the application services, and the how the application can help optimise the work-flow within an organisation.</p>
+     <!-- Use a button to pause/play the video with JavaScript -->
+     <button id="myBtn" onclick="myFunction()">Pause</button>
+   </div>
+<div class="content">
+<video autoplay muted loop id="Video">
+<source src="Video.mp4" type="video/mp4">
+</video>
+
+
+
+<script>
+// Get the video
+var video = document.getElementById("Video");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video section
+function myFunction() {
+if (video.paused) {
+ video.play();
+ btn.innerHTML = "Pause";
+} else {
+ video.pause();
+ btn.innerHTML = "Play";
+}
+}
+</div>
+</div>
+</div>
+</script>
+</section>
 </body>
 </html>
-
