@@ -58,11 +58,6 @@ include("include/login_header.php");
 		<!-- LOGO goes here -->
 		<center><h2 style="margin-top:1px;"></h2></center>
 		<!-- LOGO goes here -->
-		<div class="">
-			<div class="iframe-container">
-			<iframe width="1000" height="400" src="https://www.youtube.com/embed/ly36kn0ug4k" title="YouTube video player" frameborder="0" 
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
 			<div class="well" style="position:relative;top:20vh;">
 				<form class="form-horizontal form-custom-login" action="" method="POST">
 				<div class="form-heading" style="background: transparent;">
@@ -82,7 +77,6 @@ include("include/login_header.php");
 				<button type="submit" name="login_btn" class="btn btn-info pull-right" style="border: 0; border-radius: 10px;">Sign In</button>
 				</form>			
 			</div>
-		</div>
 		
 	</div>
 </div>
