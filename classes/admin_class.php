@@ -5,22 +5,21 @@ class Admin_Class
 
 /* -------------------------set_database_connection_using_PDO---------------------- */
 
-	public function __construct()
-	{ 
-        $host_name='us-cdbr-east-06.cleardb.net';
-		$user_name='bc8a2b80412599';
-		$password='7e8cb8e1';
-		$db_name='heroku_af56457955d7054';
+public function __construct()
+{ 
+	$host_name='us-cdbr-east-06.cleardb.net';
+	$user_name='bc8a2b80412599';
+	$password='7e8cb8e1';
+	$db_name='heroku_af56457955d7054';
 
-		try{
-			$connection=new PDO("mysql: host={$host_name}; dbname={$db_name}", $user_name,  $password);
-			$connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-			$this->db = $connection; // connection established
-		} catch (PDOException $message ) {
-			echo $message->getMessage();
-		}
-		mysql://bc8a2b80412599:7e8cb8e1@us-cdbr-east-06.cleardb.net/heroku_af56457955d7054?reconnect=true
+	try{
+		$connection=new PDO("mysql:host={$host_name}; dbname={$db_name}", $user_name,  $password);
+		$this->db = $connection; // connection established
+	} catch (PDOException $message ) {
+		echo $message->getMessage();
 	}
+}
+
 
 /* ---------------------- test_form_input_data ----------------------------------- */
 	
