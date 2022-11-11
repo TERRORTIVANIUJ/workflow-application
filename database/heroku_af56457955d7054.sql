@@ -17,7 +17,7 @@ SET time_zone = "+02:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `workflow-db`
+-- Database: `heroku_af56457955d7054`
 --
 
 -- --------------------------------------------------------
