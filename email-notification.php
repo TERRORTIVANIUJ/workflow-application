@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Notification</title>
+  <link rel="icon" href="assets/img/icon.jpg">
 </head>
 <body>
 
@@ -149,11 +150,11 @@ $mail->smtpClose();
                             <div class="form-group">
                             </div>
                             <div class="form-group">
-                              <div class="col-sm-offset-3 col-sm-3">
-                                <button type="submit" name="submit" class="btn btn-success-custom">Send Now</button>
+                              <div class="col-sm-offset-4 col-sm-3">
+                                <button type="submit" name="submit" class="btn btn-success-custom">Notify</button>
                               </div>
                               <div class="col-sm-3">
-                                <a title="Update Task"  href="task-info.php"><span class="btn btn-danger-custom btn-xs">Go Back</span></a>
+                                <a title="Update Task"  href="task-info.php"><span class="btn btn-danger-custom btn-xs">Cancel</span></a>
                               </div>
                             </div>
                           </form> 
