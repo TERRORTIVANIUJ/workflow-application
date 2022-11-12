@@ -1,4 +1,4 @@
-*****************Steps to run this on your device**************************
+*****************Steps to run this on your local machine**************************
 
 . download the zip file and save it in htdocs on xampp (make sure you have 'xampp v7.4.12' phpmyadmin software installed on "C:\xampp" diractory)
 
@@ -38,7 +38,7 @@ Password: password
 
 ---------------------------------------------------------------------------------------------------
 
-NOTE: after creating a new account for the users, you'll get a random-generated
+NOTE: After creating a new account for the users, you'll get a random-generated
 temporary password which is provided inside "Manage User" section of the application.
 Copy that temporary password and use it for the user's login to reset it to the user's preference.
 
