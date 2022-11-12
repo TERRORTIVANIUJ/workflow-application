@@ -1,6 +1,6 @@
 *****************Steps to run this on your device**************************
 
-1. download the zip file and save it in htdocs on xampp (make sure you have 'xampp' phpmyadmin software installed on "C:\xampp" diractory)
+. download the zip file and save it in htdocs on xampp (make sure you have 'xampp v7.4.12' phpmyadmin software installed on "C:\xampp" diractory)
 
 2. open xampp-control.exe in xampp folder
 
@@ -26,15 +26,15 @@
 **Admin Login Details**
 
 Username: admin
-Password: admin101
+Password: codeastro
 
 **User Login Details** 
 
-Username: jane
-Password: jane123
+Username: user1
+Password: password
 
-Username: logan
-Password: logan321
+Username: user2
+Password: password
 
 NOTE: after creating new account for the users, you'll get a random generated
 temporary password which is provided inside "Manage User" section of the application.
